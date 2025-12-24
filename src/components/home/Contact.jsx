@@ -4,12 +4,18 @@ export default function Contact() {
   return (
     <section id="contact" className="scroll-mt-24">
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16">
-        <div className="grid gap-10 lg:grid-cols-12">
+        <header className="mx-auto max-w-4xl text-center">
+          <h2 className="text-balance text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl dark:text-slate-100">
+            GET IN{' '}
+            <span className="text-indigo-600 dark:text-sky-400">TOUCH</span>
+          </h2>
+          <p className="mt-4 text-pretty text-base text-slate-600 sm:text-lg dark:text-slate-300">
+            Request a quote, ask about benefits, or get help choosing coverage.
+          </p>
+        </header>
+
+        <div className="mt-10 grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5">
-            <p className="text-xs font-medium text-slate-600 dark:text-slate-300">Contact</p>
-            <h2 className="mt-2 text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-100">
-              Get a quote or talk to an advisor
-            </h2>
             <p className="mt-3 text-sm leading-relaxed text-slate-600 dark:text-slate-300 sm:text-base">
               Use this form to request a quote, ask about plan details, or get
               help choosing coverage. (UI-only for the machine test.)

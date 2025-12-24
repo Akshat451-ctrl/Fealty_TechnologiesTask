@@ -4,21 +4,25 @@ export default function Newsletter() {
   return (
     <section id="newsletter" className="scroll-mt-24">
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16">
+        <header className="mx-auto max-w-4xl text-center">
+          <h2 className="text-balance text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl dark:text-slate-100">
+            STAY{' '}
+            <span className="text-indigo-600 dark:text-sky-400">UPDATED</span>
+          </h2>
+          <p className="mt-4 text-pretty text-base text-slate-600 sm:text-lg dark:text-slate-300">
+            Subscribe for plan insights, checklists, and product updates.
+          </p>
+        </header>
+
         <div className="relative overflow-hidden rounded-[2.25rem] border border-slate-100/80 bg-white/75 p-8 shadow-sm shadow-slate-900/5 backdrop-blur-xl dark:border-slate-800/80 dark:bg-slate-900/50 dark:shadow-black/30 sm:p-10">
           <div className="pointer-events-none absolute -right-24 -top-24 size-72 rounded-full bg-gradient-to-br from-indigo-100 to-sky-100 blur-2xl dark:from-indigo-500/20 dark:to-sky-500/10" />
           <div className="pointer-events-none absolute -bottom-28 -left-24 size-80 rounded-full bg-gradient-to-br from-sky-100 to-white blur-2xl dark:from-sky-500/15 dark:to-slate-950" />
 
           <div className="relative grid gap-8 lg:grid-cols-12 lg:items-center">
             <div className="lg:col-span-7">
-              <p className="text-xs font-medium text-slate-600 dark:text-slate-300">
-                Stay updated
-              </p>
-              <h2 className="mt-2 text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-100">
-                Get coverage tips in your inbox
-              </h2>
-              <p className="mt-3 max-w-xl text-sm leading-relaxed text-slate-600 dark:text-slate-300 sm:text-base">
-                Subscribe for product updates, plan insights, and helpful checklists.
-                (Add your own newsletter value props here.)
+              <p className="max-w-xl text-sm leading-relaxed text-slate-600 dark:text-slate-300 sm:text-base">
+                Subscribe for helpful coverage tips and updates. (Hook this up to your
+                email provider later.)
               </p>
             </div>
 

@@ -4,17 +4,17 @@ export default function Process() {
   return (
     <section id="process" className="scroll-mt-24">
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16">
-        <div className="max-w-2xl">
-          <p className="text-xs font-medium text-slate-600 dark:text-slate-300">How it works</p>
-          <h2 className="mt-2 text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-100">
-            A simple path from quote to coverage
+        <header className="mx-auto max-w-4xl text-center">
+          <h2 className="text-balance text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl dark:text-slate-100">
+            HOW IT{' '}
+            <span className="text-indigo-600 dark:text-sky-400">WORKS</span>
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-slate-600 dark:text-slate-300 sm:text-base">
-            Clear steps, clear status updates, and support when you need it.
+          <p className="mt-4 text-pretty text-base text-slate-600 sm:text-lg dark:text-slate-300">
+            A simple path from quote to coverage, with clear status updates.
           </p>
-        </div>
+        </header>
 
-        <div className="mt-8 grid gap-5 lg:grid-cols-4">
+        <div className="mt-10 grid gap-5 lg:grid-cols-4">
           {processSteps.map((step, index) => (
             <div
               key={step.id}
